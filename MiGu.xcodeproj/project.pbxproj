@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBFF29E21D30C322002579AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFF29E11D30C322002579AD /* AppDelegate.m */; };
+		DBFF29E41D30C322002579AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFF29E31D30C322002579AD /* main.m */; };
+		DBFF29E61D30C322002579AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFF29E51D30C322002579AD /* Images.xcassets */; };
+		DBFF29E91D30C322002579AD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBFF29E71D30C322002579AD /* MainMenu.xib */; };
+		DBFF29F51D30C322002579AD /* MiGuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFF29F41D30C322002579AD /* MiGuTests.m */; };
+		DBFF2A731D30C743002579AD /* MG.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFF2A721D30C743002579AD /* MG.m */; };
+		DBFF2A751D30C9AA002579AD /* stock_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = DBFF2A741D30C9AA002579AD /* stock_simple.txt */; };
+		DBFF2A771D30C9D8002579AD /* convert_utf-8.txt in Resources */ = {isa = PBXBuildFile; fileRef = DBFF2A761D30C9D8002579AD /* convert_utf-8.txt */; };
+		DBFF2A791D30CA02002579AD /* stock.txt in Resources */ = {isa = PBXBuildFile; fileRef = DBFF2A781D30CA02002579AD /* stock.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBFF29EF1D30C322002579AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBFF29D31D30C322002579AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBFF29DA1D30C322002579AD;
+			remoteInfo = MiGu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBFF29DB1D30C322002579AD /* MiGu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiGu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFF29DF1D30C322002579AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFF29E01D30C322002579AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBFF29E11D30C322002579AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBFF29E31D30C322002579AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBFF29E51D30C322002579AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBFF29E81D30C322002579AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DBFF29EE1D30C322002579AD /* MiGuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiGuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFF29F31D30C322002579AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFF29F41D30C322002579AD /* MiGuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiGuTests.m; sourceTree = "<group>"; };
+		DBFF2A711D30C743002579AD /* MG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MG.h; sourceTree = "<group>"; };
+		DBFF2A721D30C743002579AD /* MG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MG.m; sourceTree = "<group>"; };
+		DBFF2A741D30C9AA002579AD /* stock_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stock_simple.txt; sourceTree = "<group>"; };
+		DBFF2A761D30C9D8002579AD /* convert_utf-8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "convert_utf-8.txt"; sourceTree = "<group>"; };
+		DBFF2A781D30CA02002579AD /* stock.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stock.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBFF29D81D30C322002579AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFF29EB1D30C322002579AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBFF29D21D30C322002579AD = {
+			isa = PBXGroup;
+			children = (
+				DBFF29DD1D30C322002579AD /* MiGu */,
+				DBFF29F11D30C322002579AD /* MiGuTests */,
+				DBFF29DC1D30C322002579AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBFF29DC1D30C322002579AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBFF29DB1D30C322002579AD /* MiGu.app */,
+				DBFF29EE1D30C322002579AD /* MiGuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBFF29DD1D30C322002579AD /* MiGu */ = {
+			isa = PBXGroup;
+			children = (
+				DBFF29E01D30C322002579AD /* AppDelegate.h */,
+				DBFF29E11D30C322002579AD /* AppDelegate.m */,
+				DBFF29E51D30C322002579AD /* Images.xcassets */,
+				DBFF29E71D30C322002579AD /* MainMenu.xib */,
+				DBFF29DE1D30C322002579AD /* Supporting Files */,
+				DBFF2A711D30C743002579AD /* MG.h */,
+				DBFF2A721D30C743002579AD /* MG.m */,
+				DBFF2A741D30C9AA002579AD /* stock_simple.txt */,
+				DBFF2A761D30C9D8002579AD /* convert_utf-8.txt */,
+				DBFF2A781D30CA02002579AD /* stock.txt */,
+			);
+			path = MiGu;
+			sourceTree = "<group>";
+		};
+		DBFF29DE1D30C322002579AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBFF29DF1D30C322002579AD /* Info.plist */,
+				DBFF29E31D30C322002579AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBFF29F11D30C322002579AD /* MiGuTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBFF29F41D30C322002579AD /* MiGuTests.m */,
+				DBFF29F21D30C322002579AD /* Supporting Files */,
+			);
+			path = MiGuTests;
+			sourceTree = "<group>";
+		};
+		DBFF29F21D30C322002579AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBFF29F31D30C322002579AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBFF29DA1D30C322002579AD /* MiGu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBFF29F81D30C322002579AD /* Build configuration list for PBXNativeTarget "MiGu" */;
+			buildPhases = (
+				DBFF29D71D30C322002579AD /* Sources */,
+				DBFF29D81D30C322002579AD /* Frameworks */,
+				DBFF29D91D30C322002579AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiGu;
+			productName = MiGu;
+			productReference = DBFF29DB1D30C322002579AD /* MiGu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBFF29ED1D30C322002579AD /* MiGuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBFF29FB1D30C322002579AD /* Build configuration list for PBXNativeTarget "MiGuTests" */;
+			buildPhases = (
+				DBFF29EA1D30C322002579AD /* Sources */,
+				DBFF29EB1D30C322002579AD /* Frameworks */,
+				DBFF29EC1D30C322002579AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBFF29F01D30C322002579AD /* PBXTargetDependency */,
+			);
+			name = MiGuTests;
+			productName = MiGuTests;
+			productReference = DBFF29EE1D30C322002579AD /* MiGuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBFF29D31D30C322002579AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = lichen;
+				TargetAttributes = {
+					DBFF29DA1D30C322002579AD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DBFF29ED1D30C322002579AD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DBFF29DA1D30C322002579AD;
+					};
+				};
+			};
+			buildConfigurationList = DBFF29D61D30C322002579AD /* Build configuration list for PBXProject "MiGu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBFF29D21D30C322002579AD;
+			productRefGroup = DBFF29DC1D30C322002579AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBFF29DA1D30C322002579AD /* MiGu */,
+				DBFF29ED1D30C322002579AD /* MiGuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBFF29D91D30C322002579AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFF2A751D30C9AA002579AD /* stock_simple.txt in Resources */,
+				DBFF29E61D30C322002579AD /* Images.xcassets in Resources */,
+				DBFF2A791D30CA02002579AD /* stock.txt in Resources */,
+				DBFF29E91D30C322002579AD /* MainMenu.xib in Resources */,
+				DBFF2A771D30C9D8002579AD /* convert_utf-8.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFF29EC1D30C322002579AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBFF29D71D30C322002579AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFF2A731D30C743002579AD /* MG.m in Sources */,
+				DBFF29E41D30C322002579AD /* main.m in Sources */,
+				DBFF29E21D30C322002579AD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFF29EA1D30C322002579AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFF29F51D30C322002579AD /* MiGuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBFF29F01D30C322002579AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBFF29DA1D30C322002579AD /* MiGu */;
+			targetProxy = DBFF29EF1D30C322002579AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBFF29E71D30C322002579AD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBFF29E81D30C322002579AD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBFF29F61D30C322002579AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DBFF29F71D30C322002579AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DBFF29F91D30C322002579AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MiGu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBFF29FA1D30C322002579AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MiGu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBFF29FC1D30C322002579AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiGuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiGu.app/Contents/MacOS/MiGu";
+			};
+			name = Debug;
+		};
+		DBFF29FD1D30C322002579AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiGuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiGu.app/Contents/MacOS/MiGu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBFF29D61D30C322002579AD /* Build configuration list for PBXProject "MiGu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFF29F61D30C322002579AD /* Debug */,
+				DBFF29F71D30C322002579AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBFF29F81D30C322002579AD /* Build configuration list for PBXNativeTarget "MiGu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFF29F91D30C322002579AD /* Debug */,
+				DBFF29FA1D30C322002579AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBFF29FB1D30C322002579AD /* Build configuration list for PBXNativeTarget "MiGuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFF29FC1D30C322002579AD /* Debug */,
+				DBFF29FD1D30C322002579AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBFF29D31D30C322002579AD /* Project object */;
+}
