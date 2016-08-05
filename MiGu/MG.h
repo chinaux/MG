@@ -18,6 +18,7 @@
 -(bool) Has:(NSString *)py sec:(int) idx;
 -(NSString*) stock_name;
 -(void) Print;
+//test
 
 @end
 
