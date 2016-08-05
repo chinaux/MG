@@ -89,6 +89,7 @@
                 [stockArr_0 addObject:ss];
             }
         }
+        
     }
     NSLog(@"stockArr_0:%d",stockArr_0.count);
     
